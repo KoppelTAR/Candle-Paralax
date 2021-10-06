@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    text-align: center;
+}
+
+.contact {
+    display: inline-block;
+    margin: 1rem;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.wrapper i, a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.wrapper:hover {
+    transform: translateY(-5px);
+}
+
+.wrapper:active {
+    transform: translateY(5px);
+}
+
+li {
+    display: inline-table;
+    list-style: none;
+}
+
+.intro-image {
+    background-image: url('../img/5529385-young-business-executive-in-suit-cheering-isolated-on-white.jpg');
+    height: 95vh;
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro-image__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+.packaging-image {
+    background-image: url('../img/istockphoto-1059113338-612x612.jpg');
+    height: 95vh;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.packaging-image__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+}
+
+.packaging-image__text .btn {
+    font-size: 3.5rem;
+    color: thistle;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 5rem;
+    padding: 1rem;
+    transition: all 0.3s;
+    background-color: rgba(245, 245, 220, 0.609);
+}
+
+.tutorials-image {
+    background-image: url('../img/1.webp');
+    height: 95vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tutorials-image__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    
+    
+}
+
+.tutorials-image__text .btn {
+    font-size: 3.5rem;
+    color: thistle;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 5rem;
+    padding: 1rem;
+    transition: all 0.3s;
+    background-color: rgba(58, 158, 58, 0.555);
+}
+
+.btn:hover {
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.15);
+    transform: translateY(-5px);
+}
+
+.btn:active {
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    transform: translateY(5px);
+}
